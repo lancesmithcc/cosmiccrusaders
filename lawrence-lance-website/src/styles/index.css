@@ -17,9 +17,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--dark-purple);
+  background-color: #240552;
+  
   color: var(--white);
   overflow-x: hidden;
+ 
   
 }
 
