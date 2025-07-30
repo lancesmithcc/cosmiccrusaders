@@ -1,6 +1,6 @@
 [build]
-  publish = "dist"
-  command = "npm run build"
+  publish = "lawrence-lance-website/dist"
+  command = "cd lawrence-lance-website && npm run build"
 
 [[redirects]]
   from = "/*"

@@ -1,0 +1,11 @@
+{
+  "name": "lawrence-lance",
+  "version": "1.0.0",
+  "description": "Lawrence Mayles & Lance Smith Co-Creative Journey",
+  "scripts": {
+    "build": "cd lawrence-lance-website && npm run build",
+    "dev": "cd lawrence-lance-website && npm run dev",
+    "preview": "cd lawrence-lance-website && npm run preview"
+  },
+  "private": true
+} 
