@@ -10,6 +10,8 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
+    target: 'es2015',
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: undefined
@@ -17,5 +19,8 @@ export default defineConfig({
     }
   },
   publicDir: 'public',
-  base: '/'
+  base: '/',
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom']
+  }
 });
