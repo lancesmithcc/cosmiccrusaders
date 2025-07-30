@@ -48,7 +48,7 @@ const Home = () => {
           <div className="project-preview">
             <div className="project-image">
               {/* Placeholder for project image */}
-              <div className="image-placeholder"><a href="https://www.theangelsapprentice.com/"><img src="../src/assets/angels.png" alt="Caretakers of Paradise" /></a></div>
+              <div className="image-placeholder"><a href="https://www.theangelsapprentice.com/"><img src="src/assets/angels.png" alt="Caretakers of Paradise" /></a></div>
             </div>
             <div className="project-info">
               <h2>The Angel's Apprentice</h2>
@@ -74,7 +74,7 @@ const Home = () => {
             </div>
             <div className="project-image">
               {/* Placeholder for project image */}
-              <div className="image-placeholder"><a href="https://www.caretakersofparadise.com/"><img src="../src/assets/caretakers.png" alt="Caretakers of Paradise" /></a></div>
+              <div className="image-placeholder"><a href="https://www.caretakersofparadise.com/"><img src="src/assets/caretakers.png" alt="Caretakers of Paradise" /></a></div>
             </div>
           </div>
         </div>
