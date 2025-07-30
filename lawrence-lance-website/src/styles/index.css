@@ -1,0 +1,122 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+:root {
+  --dark-purple: #4A1A5C;
+  --teal: #008B8B;
+  --pink: #e08fe2;
+  --aurora-blue: #1E3A8A;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  overflow-x: hidden;
+  
+}
+
+h1, h2, h3 {
+  font-weight: 900; text-transform:uppercase; /* Montserrat Black */
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p, a, li {
+  font-weight: 400; /* Montserrat Regular */
+  font-size: 16px;
+}
+
+a {
+  color: var(--pink);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  background: linear-gradient(45deg, var(--teal), var(--aurora-blue));
+  color: var(--white);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+}
+
+.section {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p, a, li {
+    font-size: 14px;
+  }
+}
+.image-placeholder img{border-radius:33px;
+transition: transform 0.3s ease;
+border:solid 5px #fff;
+}
+.image-placeholder img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+}
+
+@keyframes surferBob {
+  0%   { transform: translateY(0) rotate(0deg); }
+  25%  { transform: translateY(-5px) rotate(-1deg); }
+  50%  { transform: translateY(0px) rotate(1deg); }
+  75%  { transform: translateY(5px) rotate(-0.5deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+.hero-content img{
+  width:200px;
+  margin-top:33px; 
+  animation: surferBob 2.5s ease-in-out infinite;
+  transform-origin: center;
+  display: inline-block;
+}

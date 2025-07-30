@@ -1,0 +1,38 @@
+/* TubeTorusVortex component styles */
+.tube-torus-vortex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Behind all content */
+  
+  
+}
+
+.tube-torus-vortex canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* Add a subtle gradient overlay for better text readability */
+.tube-torus-vortex::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  mix-blend-mode: hard-light;
+  
+  background-image: 
+    radial-gradient(circle, transparent 20%, var(--dark-purple) 150%),
+    url('../assets/shipibo.png');
+    
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 100%, 33%; /* gradient stays full, pattern is scaled down */
+}

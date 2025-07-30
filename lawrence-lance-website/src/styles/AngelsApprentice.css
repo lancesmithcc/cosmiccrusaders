@@ -1,0 +1,130 @@
+/* AngelsApprentice component styles */
+.angels-apprentice {
+  width: 100%;
+}
+
+.hero-section {
+  padding: 120px 0 60px;
+  text-align: center;
+  background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(74, 26, 92, 0.8));
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: var(--pink);
+}
+
+.hero-section p {
+  font-size: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.book-showcase {
+  display: flex;
+  justify-content: center;
+}
+
+.book {
+  max-width: 400px;
+  text-align: center;
+}
+
+.book-cover {
+  height: 400px;
+  background: linear-gradient(45deg, var(--teal), var(--aurora-blue));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.book h2 {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.book-description {
+  margin-bottom: 30px;
+}
+
+.book-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.book-links .btn {
+  background: linear-gradient(45deg, var(--teal), var(--aurora-blue));
+}
+
+.community-section {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 100px 0;
+}
+
+.community-section h2 {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.community-section p {
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.author-spotlight {
+  padding: 100px 0;
+}
+
+.author-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.author-image {
+  flex: 1;
+  height: 400px;
+  background: linear-gradient(45deg, var(--teal), var(--aurora-blue));
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.author-bio {
+  flex: 1;
+}
+
+.author-bio p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 36px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+  }
+  
+  .author-content {
+    flex-direction: column;
+  }
+  
+  .author-image {
+    width: 100%;
+  }
+}
