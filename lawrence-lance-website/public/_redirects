@@ -1,1 +1,8 @@
+# Handle client-side routing
 /*    /index.html   200
+
+# Ensure all routes work
+/about    /index.html   200
+/contact    /index.html   200
+/caretakers-of-paradise    /index.html   200
+/angels-apprentice    /index.html   200

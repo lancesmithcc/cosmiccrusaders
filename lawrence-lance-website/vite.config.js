@@ -9,7 +9,13 @@ export default defineConfig({
     port: 888
   },
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   },
-  publicDir: 'public'
+  publicDir: 'public',
+  base: '/'
 });
