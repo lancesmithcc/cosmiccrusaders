@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Lawrence Mayles & Lance Smith Co-Creative Journey",
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "20.x",
+    "npm": "10.x"
   },
   "scripts": {
     "build": "cd lawrence-lance-website && npm run build",
