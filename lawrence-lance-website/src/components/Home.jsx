@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import TubeTorusVortex from './TubeTorusVortex';
 import surfinImage from '../assets/surfin.png';
+import angelsImage from '../assets/angels.png';
+import caretakersImage from '../assets/caretakers.png';
 import journeyAudio from '../assets/Journey.mp3';
 import '../styles/Home.css';
 
@@ -48,7 +50,13 @@ const Home = () => {
           <div className="project-preview">
             <div className="project-image">
               {/* Placeholder for project image */}
-              <div className="image-placeholder"><a href="https://www.theangelsapprentice.com/"><img src="/src/assets/angels.png" alt="The Angel's Apprentice" /></a></div>
+              <div className="image-placeholder"><a href="https://www.theangelsapprentice.com/">
+              <img 
+            src={angelsImage} 
+            alt="The Angel's Apprentice" 
+            onClick={playJourney}
+          />
+          </a></div>
             </div>
             <div className="project-info">
               <h2>The Angel's Apprentice</h2>
@@ -74,7 +82,8 @@ const Home = () => {
             </div>
             <div className="project-image">
               {/* Placeholder for project image */}
-              <div className="image-placeholder"><a href="https://www.caretakersofparadise.com/"><img src="/src/assets/caretakers.png" alt="Caretakers of Paradise" /></a></div>
+                <div className="image-placeholder"><a href="https://www.caretakersofparadise.com/">
+                <img src={caretakersImage} alt="Caretakers of Paradise" /></a></div>
             </div>
           </div>
         </div>
