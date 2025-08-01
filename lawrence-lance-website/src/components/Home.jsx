@@ -50,13 +50,9 @@ const Home = () => {
           <div className="project-preview">
             <div className="project-image">
               {/* Placeholder for project image */}
-              <div className="image-placeholder"><a href="https://www.theangelsapprentice.com/">
-              <img 
-            src={angelsImage} 
-            alt="The Angel's Apprentice" 
-            onClick={playJourney}
-          />
-          </a></div>
+              <div className="image-placeholder">
+                <a href="https://www.theangelsapprentice.com/"><img src={angelsImage} alt="The Angel's Apprentice" /></a>
+              </div>
             </div>
             <div className="project-info">
               <h2>The Angel's Apprentice</h2>
