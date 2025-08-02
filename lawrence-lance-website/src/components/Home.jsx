@@ -56,7 +56,7 @@ const Home = () => {
             </div>
             <div className="project-info">
               <h2>The Angel's Apprentice</h2>
-              <p>Step into a realm where words become gateways to the divine. Lawrence's visionary work isn't just a book - it's a sacred journey. Experience it through print, audiobook, or cinematic YouTube productions. Plus: the mind-bending "Conversations with a Bowl of Cereal" series that transforms the mundane into the mystical.</p>
+              <p>Enter a realm where words become gateways to the divine. Lawrence's visionary work isn't just a book - it's a sacred journey. Experience it through print, audiobook, or cinematic YouTube productions. Plus: the mind-bending "Conversations with a Bowl of Cereal" series that transforms the mundane into the mystical.</p>
               <div className="platform-links">
                 <a href="https://www.theangelsapprentice.com/" className="btn">Learn More</a>
               </div>
