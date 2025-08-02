@@ -124,7 +124,7 @@
     height: auto;
   }
 
-  .hero-content img {
-    margin-top: 200px !important;
+  .hero-content{
+    padding-top: 200px !important;
   }
 }
