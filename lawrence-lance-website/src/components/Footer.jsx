@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-info">
-            <h3>Cosmic Crusaders</h3>
+            <h3>We Are The Caretakers of Paradise</h3>
             <p>20 years of cosmic creativity</p>
           </div>
           
