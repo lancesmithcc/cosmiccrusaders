@@ -40,7 +40,7 @@ const Home = () => {
             style={{ cursor: 'pointer' }}
           />
           <h1>20 Years + of Cosmic Creativity</h1>
-          <p>The collaborative works of Author, Lawrence Mayles and Creative Director, Lance Smith. <br />
+          <p>The collaborative works of <br />Author, Lawrence Mayles and Creative Director, Lance Smith. <br />
           A co-creative collaboration of words of wonder, art and spirit</p>
         </div>
       </section>
