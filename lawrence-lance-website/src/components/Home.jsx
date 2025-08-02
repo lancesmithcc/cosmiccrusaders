@@ -90,8 +90,11 @@ const Home = () => {
       <section className="section">
         <div className="container">
           <div className="about-preview">
-            <h2>The Co-Creative Journey</h2>
-            <p>Lawrence Mayles and Lance Smith have been exploring the intersection of art, spirituality, and collaborative creation for over twenty years. Their work spans multiple mediums, from podcasting and video production to literary works.</p>
+            <h2>Twenty Years of Mystical Multimedia</h2>
+            <p>
+Lawrence Mayles and Lance Smith have spent over two decades creating at the intersection of storytelling, art and spirituality. Their collaboration spans multiple formats: Lawrence's published book "The Angel's Apprentice", their "Caretakers of Paradise" podcast, and various video productions.
+Their work blends poetry with mystical themes, creating what they call "contraband consciousness." Through literature, podcasting, and multimedia projects, they explore transcendence and spiritual awakening using unconventional artistic language and sacred imagery.
+The duo positions themselves as guides for consciousness exploration, offering audiences a unique fusion of urban poetry and spiritual wisdom across their various creative platforms.</p>
           </div>
         </div>
       </section>
