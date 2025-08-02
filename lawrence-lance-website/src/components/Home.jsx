@@ -92,7 +92,7 @@ const Home = () => {
           <div className="about-preview">
             <h2>Twenty Years of Mystical Multimedia</h2>
             <p>
-Lawrence Mayles and Lance Smith have spent over two decades creating at the intersection of storytelling, art and spirituality. Their collaboration spans multiple formats: Lawrence's published book "The Angel's Apprentice", their "Caretakers of Paradise" podcast, and various video productions.
+Lawrence Mayles and Lance Smith have spent over two decades creating at the intersection of storytelling, art and spirituality. Their collaboration spans multiple formats: Lawrence's published book The Angel's Apprentice and the Conversations with a Bowl of Cereal Series, their Caretakers of Paradise podcast, and various video productions.
 Their work blends poetry with mystical themes, creating what they call "contraband consciousness." Through literature, podcasting, and multimedia projects, they explore transcendence and spiritual awakening using unconventional artistic language and sacred imagery.
 The duo positions themselves as guides for consciousness exploration, offering audiences a unique fusion of urban poetry and spiritual wisdom across their various creative platforms.</p>
           </div>
